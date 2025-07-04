@@ -24,7 +24,7 @@ else:
 if prefix == "NONE":
     prefix = ""
 
-REDIRECT_URI = f"http://localhost:{os.getenv('PORT', '8000')}/auth"
+REDIRECT_URI = "http://136.244.109.248:8000/auth"
 
 MONGO_URI = os.getenv("MONGO_URI") or os.getenv("CONNECTION_URI")
 if not MONGO_URI:
